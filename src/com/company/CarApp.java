@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Create a Car class and App
+ * <b>Create a Car class and App</b>
  *
  * Create a class called Car. The Car class should inherit from the Vehicle class. Car should contain the following:
  *
@@ -60,7 +60,7 @@ public class CarApp {
         System.out.println(porsche.accelerate());
         System.out.println(jetta.accelerate());
         System.out.println(jetta.emissionChecked());
-        System.out.println(jetta.passTest());
+        System.out.println(jetta.passedEmissionTest());
         System.out.println(porsche.setSpeed(50));
         System.out.println(porsche.stopped());
         System.out.println(porsche.passed(jetta,porsche));

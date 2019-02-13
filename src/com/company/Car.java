@@ -13,7 +13,6 @@ public class Car extends Vehicle {
         this.make = make;
     }
 
-
     //getter and setters
     public String getModel() {
         return model;
@@ -57,12 +56,12 @@ public class Car extends Vehicle {
         return "The "+ getColor() + " " + getMake() + " has stopped to have its emissions checked";
     }
 
+    public String passedEmissionTest(){
+        return "The "+ getColor() + " " + getMake() + " passes its emission test";
+    }
+
     public String passed(Car car1, Car car2){
         return "The " + car1.getColor() + " " + car1.getMake() +" just passed the " +
                         car2.getColor() + " " + car2.getMake();
-    }
-
-    public String passTest(){
-        return "The "+ getColor() + " " + getMake() + " passes its emission test";
     }
 }
